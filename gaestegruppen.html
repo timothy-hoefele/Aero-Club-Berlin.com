@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ein Flugtag für Gruppen und Vereine.">
+    <title>Gästegruppen | Aero-Club Berlin e. V.</title>
+    <link rel="icon" href="images/aecb-logo-web.png">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Aero-Club Berlin Startseite">
+        <img src="images/aecb-logo-web.png" alt="Aero-Club Berlin">
+        <span><strong>AERO-CLUB BERLIN</strong><small>SEGELFLUG · REINSDORF</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <div class="nav-group">
+          <button class="nav-link nav-toggle" type="button" aria-expanded="false">Verein<span aria-hidden="true">⌄</span></button>
+          <div class="dropdown"><a href="wir-ueber-uns.html">Wir über uns</a><a href="flugzeugpark-technik.html">Flugzeugpark & Technik</a><a href="anfahrt.html">Anfahrt</a></div>
+        </div>
+        <div class="nav-group">
+          <button class="nav-link nav-toggle" type="button" aria-expanded="false">Mitfliegen<span aria-hidden="true">⌄</span></button>
+          <div class="dropdown"><a href="aufnahme.html">Aufnahme & Einführungsflüge</a><a href="kosten.html">Kosten</a><a href="gaestegruppen.html">Gästegruppen</a><a href="fliegerurlaub.html">Fliegerurlaub</a></div>
+        </div>
+        <div class="nav-group">
+          <button class="nav-link nav-toggle" type="button" aria-expanded="false">Ausbildung<span aria-hidden="true">⌄</span></button>
+          <div class="dropdown"><a href="ausbildung.html">Segelflugausbildung</a><a href="schulkooperationen.html">Schulkooperationen</a><a href="streckenflug.html">Streckenflug</a><a href="kunstflug.html">Kunstflug</a></div>
+        </div>
+        <div class="nav-group">
+          <button class="nav-link nav-toggle" type="button" aria-expanded="false">Aktuelles<span aria-hidden="true">⌄</span></button>
+          <div class="dropdown"><a href="blog.html">Blog</a></div>
+        </div>
+        <a class="nav-link " href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+    <section class="hero hero-inner" style="--hero-image:url('../images/IMG-20260617-WA0038.jpg')">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Gemeinsam zu Besuch in Reinsdorf</p>
+        <h1>Gästegruppen</h1>
+        <p class="hero-sub">Ein Flugtag für Gruppen und Vereine.</p>
+      </div>
+    </section>
+    <div class="breadcrumb"><a href="index.html">Startseite</a><span>/</span>Gästegruppen
+    </div>
+    <main>
+      <section class="section page-section">
+        <div class="content-copy">
+          <h3>Ihr möchtet den freien Luftraum und die Thermik der Sandachse genießen?</h3>
+          <h3>Gästegruppen sind in Reinsdorf von April bis September willkommen.</h3>
+          <ul>
+            <li>Winde und Vereinsheim stehen euch zur Verfügung</li>
+            <li>Übernachtung auf dem Campingplatz oder in der Umgebung</li>
+            <li>1250m Seil, unter Absprache 1700m (2700m nur an bestimmten Terminen möglich)</li>
+            <li>Freier Luftraum bis 3000m über dem Flugplatz</li>
+            <li>90km südlich von Berlin​</li>
+          </ul>
+          <p>DOKUMENTE VERLINKEN!!!!!</p>
+          <p><a class="text-link" href="documents/20260706_AeCB_Geschaeftsordnung_08.pdf" target="_blank" rel="noopener">Preisliste Gästvereine</a>
+          <br>
+          <div class="group-calendar">
+            <div class="calendar-header">
+              <button type="button" class="calendar-nav" onclick="changeMonth(-1)" aria-label="Vorheriger Monat">‹</button>
+              <div id="monthYear"></div>
+              <button type="button" class="calendar-nav" onclick="changeMonth(1)" aria-label="Nächster Monat">›</button>
+            </div>
+            <div class="calendar-weekdays">
+              <div>Mo</div>
+              <div>Di</div>
+              <div>Mi</div>
+              <div>Do</div>
+              <div>Fr</div>
+              <div>Sa</div>
+              <div>So</div>
+            </div>
+            <div class="calendar-days" id="days"></div>
+            <div class="calendar-legend">
+              <div class="calendar-legend-item">
+                <span class="calendar-legend-symbol available">✓</span>
+                <span>Verfügbar</span>
+              </div>
+              <div class="calendar-legend-item">
+                <span class="calendar-legend-symbol unavailable"></span>
+                <span>Nicht verfügbar</span>
+              </div>
+              <div class="calendar-legend-item">
+                <span class="calendar-legend-symbol past">–</span>
+                <span>Vergangen</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section related">
+        <div class="section-heading">
+          <p class="eyebrow">Weiter entdecken</p>
+          <h2>Das könnte dich auch interessieren</h2>
+        </div>
+        <div class="card-grid">
+          <a class="feature-card" href="kontakt.html">
+            <img src="images/WhatsApp Image 2025-12-25 at 16.29.25 (1).jpeg" alt="">
+            <div>
+              <h3>Kontakt</h3>
+              <p>Frage einen Gruppentermin an.</p>
+              <span class="arrow-link">Mehr erfahren ↗</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <img src="images/aecb-logo-web.png" alt="">
+          <p>Gemeinsam fliegen. Gemeinsam mehr erleben.</p>
+        </div>
+        <div>
+          <h3>Entdecken</h3>
+          <a href="wir-ueber-uns.html">Der Verein</a><a href="ausbildung.html">Ausbildung</a><a href="flugzeugpark-technik.html">Flugzeugpark</a><a href="blog.html">Aktuelles</a>
+        </div>
+        <div>
+          <h3>Besuch uns</h3>
+          <p>Flugplatz Reinsdorf<br>Flugpl. 2<br>14913 Niederer Fläming</p>
+          <a href="mailto:info@aero-club-berlin.de">info@aero-club-berlin.de</a>
+        </div>
+        <div>
+          <h3>Folge deiner Neugier</h3>
+          <a class="footer-cta" href="aufnahme.html">Einführungsflug anfragen ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Aero-Club Berlin e. V.</span>
+        <div><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+      </div>
+    </footer>
+    <script>
+      const nichtVerfuegbar = [
+        { von: "14.11.2026", bis: "26.03.2027" },
+        { von: "19.04.2027", bis: "25.04.2027" },
+        { von: "01.05.2027", bis: "05.05.2027" },
+        { von: "12.05.2027", bis: "18.05.2027" },
+        { von: "22.07.2027", bis: "31.07.2027" },
+        { von: "31.07.2027", bis: "15.08.2027" },
+        { von: "06.09.2027", bis: "12.09.2027" },
+        { von: "27.09.2027", bis: "03.10.2027" },
+        { von: "16.10.2027", bis: "24.10.2027" },
+        { von: "24.10.2027", bis: "24.03.2028" }
+      ];
+
+      const calendarMonths = [
+        "Januar", "Februar", "März", "April",
+        "Mai", "Juni", "Juli", "August",
+        "September", "Oktober", "November", "Dezember"
+      ];
+
+      const currentDate = new Date();
+      let shownMonth = currentDate.getMonth();
+      let shownYear = currentDate.getFullYear();
+
+      function calendarDateConvert(date) {
+        const [day, month, year] = date.split(".");
+        return year + "-" + month.padStart(2, "0") + "-" + day.padStart(2, "0");
+      }
+
+      function calendarDateFormat(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        return year + "-" + month + "-" + day;
+      }
+
+      function isUnavailable(date) {
+        return nichtVerfuegbar.some(period => {
+          return date >= calendarDateConvert(period.von) && date <= calendarDateConvert(period.bis);
+        });
+      }
+
+      function createCalendar() {
+        const daysContainer = document.getElementById("days");
+        const monthYear = document.getElementById("monthYear");
+        daysContainer.innerHTML = "";
+        monthYear.textContent = calendarMonths[shownMonth] + " " + shownYear;
+
+        const firstDay = new Date(shownYear, shownMonth, 1);
+        const lastDay = new Date(shownYear, shownMonth + 1, 0);
+        let startDay = firstDay.getDay();
+        startDay = startDay === 0 ? 6 : startDay - 1;
+
+        for (let i = 0; i < startDay; i++) {
+          daysContainer.appendChild(document.createElement("div"));
+        }
+
+        const today = calendarDateFormat(new Date());
+
+        for (let day = 1; day <= lastDay.getDate(); day++) {
+          const date = new Date(shownYear, shownMonth, day);
+          const dateISO = calendarDateFormat(date);
+          const dayElement = document.createElement("div");
+          dayElement.classList.add("calendar-day");
+          dayElement.textContent = day;
+
+          if (dateISO < today) {
+            dayElement.classList.add("past");
+            dayElement.setAttribute("aria-label", day + ". " + calendarMonths[shownMonth] + " – Vergangen");
+          } else if (isUnavailable(dateISO)) {
+            dayElement.classList.add("unavailable");
+            dayElement.setAttribute("aria-label", day + ". " + calendarMonths[shownMonth] + " – Nicht verfügbar");
+          } else {
+            dayElement.setAttribute("aria-label", day + ". " + calendarMonths[shownMonth] + " – Verfügbar");
+          }
+
+          if (dateISO === today) {
+            dayElement.classList.add("today");
+          }
+
+          daysContainer.appendChild(dayElement);
+        }
+      }
+
+      function changeMonth(direction) {
+        shownMonth += direction;
+        if (shownMonth < 0) {
+          shownMonth = 11;
+          shownYear--;
+        }
+        if (shownMonth > 11) {
+          shownMonth = 0;
+          shownYear++;
+        }
+        createCalendar();
+      }
+
+      createCalendar();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
