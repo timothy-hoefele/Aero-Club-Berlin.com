@@ -60,8 +60,8 @@ img {
 }
 
 .brand img {
-  width: 62px;
-  height: 52px;
+  width: 186px;
+  height: 156px;
   object-fit: contain;
 }
 
@@ -566,7 +566,7 @@ img {
 .arrow-link {
   font-size: 12px;
   font-weight: 700;
-  color: #9a6b22;
+  color: var(--gold);
 }
 
 .related {
@@ -737,8 +737,8 @@ img {
 }
 
 .footer-brand img {
-  width: 130px;
-  height: 70px;
+  width: 325px;
+  height: 175px;
   object-fit: contain;
   object-position: left;
 }
